@@ -12,7 +12,7 @@ export const Footer = () => {
     const instagram = process.env.REACT_APP_INSTAGRAM_URL;
 
     return(
-        <footer className="footer">
+        <footer className="footer" id="footer">
             <Container>
                 <Row className="align-items-center">
                     <ResumeBar />

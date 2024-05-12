@@ -3,13 +3,7 @@ import { useParams } from "react-router-dom";
 
 function WatchVideo() {
   const { projectId } = useParams();
-  //   player = {}
 
-  // onPlayerReady(player) {
-  // 	this.player = player;
-  // }
-
-  // Fetch video details for the given projectId and display the video
 
   return (
     <div>

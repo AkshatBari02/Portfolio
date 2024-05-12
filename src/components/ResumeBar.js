@@ -5,7 +5,7 @@ export const ResumeBar = () => {
     const resume_link = process.env.REACT_APP_RESUME_LINK;
 
   return (
-      <Col lg={12}>
+      <Col lg={12} id="resumeBar">
         <div className="resume-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={6}>
