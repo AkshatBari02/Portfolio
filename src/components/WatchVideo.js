@@ -1,18 +1,19 @@
 import React from "react";
+import { DefaultPlayer as Video } from "react-html5video";
 import { useParams } from "react-router-dom";
+import "react-html5video/dist/styles.css";
+import { allProjects } from "./data";
 
 function WatchVideo() {
   const { projectId } = useParams();
-
+  const project = allProjects.find((proj) => proj.projectId === projectId);
+  console.log(project.video);
 
   return (
     <div>
-      <h1>hello</h1>
-      <video class="w-100" autoplay loop muted>
-        <source
-          src="https://mdbootstrap.com/img/video/animation-intro.mp4"
-          type="video/mp4"
-        />
+      <div className="watch-video-h1"><h1>{project.title}</h1></div>
+      <video width="80%" height="50%" controls className="watch-video-cont">
+        <source src={project.video} type="video/mp4" />
       </video>
     </div>
   );
