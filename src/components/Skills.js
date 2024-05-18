@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/images/meter1.svg";
 import meter2 from "../assets/images/meter2.svg";
 import meter3 from "../assets/images/meter3.svg";
+import meter4 from "../assets/images/meter4.svg";
 import colorSharp from "../assets/images/color-sharp.png"
 
 export const Skills = () => {
@@ -39,15 +40,15 @@ return(
                                 <h5>HTML, CSS & JS</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter2} alt="Img"/>
+                                <img src={meter4} alt="Img"/>
                                 <h5>ReactJs</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter3} alt="Img"/>
+                                <img src={meter2} alt="Img"/>
                                 <h5>Python</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter1} alt="Img"/>
+                                <img src={meter2} alt="Img"/>
                                 <h5>C++</h5>
                             </div>
                             <div className='item'>

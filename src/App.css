@@ -613,6 +613,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0rem 8rem;
 }
 
+
+/* Scroll Bar */
 html::-webkit-scrollbar {
   width: 10px;
 }

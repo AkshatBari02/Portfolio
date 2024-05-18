@@ -102,7 +102,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { HashLink } from 'react-router-hash-link';
-import logo from "../assets/images/navbar-logo.jpg";
+import logo from "../assets/images/IMG_20230606_135913.jpg";
 import navIcon1 from "../assets/images/nav-icon1.svg";
 import navIcon2 from "../assets/images/nav-icon2.svg";
 import navIcon3 from "../assets/images/nav-icon3.svg";
