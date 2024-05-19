@@ -46,7 +46,6 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Contact } from "./components/Contact";
-//import { Newsletter } from './components/NewsLetter';
 import { Footer } from "./components/Footer";
 import WatchVideo from "./components/WatchVideo";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
