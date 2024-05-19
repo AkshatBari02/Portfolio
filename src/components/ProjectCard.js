@@ -1,14 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Col } from "react-bootstrap";
-import { useLocation, useNavigate } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export const ProjectCard = ({route, imgUrl, title, description,projectId}) => {
 
     const [effectApplied, setEffectApplied] = useState(false);
-
-    const location = useLocation();
 
     const handleClick = () => {
         setEffectApplied(true);

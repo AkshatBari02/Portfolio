@@ -1,5 +1,4 @@
 import React from "react";
-import { DefaultPlayer as Video } from "react-html5video";
 import { useParams } from "react-router-dom";
 import "react-html5video/dist/styles.css";
 import { allProjects } from "./data";
