@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import { htmlProjects,reactProjects,pythonProjects } from "./data";
+import { frontendProjects,fullstackProjects,pythonProjects } from "./data";
 import colorSharp2 from "../assets/images/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,10 +20,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">HTML, CSS & JS</Nav.Link>
+                      <Nav.Link eventKey="first">Frontend</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">ReactJS</Nav.Link>
+                      <Nav.Link eventKey="second">FullStack</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Python</Nav.Link>
@@ -33,7 +33,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                     <Row>
                             {
-                                htmlProjects.map((project,index) => {
+                                frontendProjects.map((project,index) => {
                                 return(
                                         <ProjectCard
                                         key= {index}
@@ -46,7 +46,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                             {
-                                reactProjects.map((project,index) => {
+                                fullstackProjects.map((project,index) => {
                                 return(
                                     <ProjectCard
                                         key= {index}
