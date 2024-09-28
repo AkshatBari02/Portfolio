@@ -7,6 +7,8 @@ import projImg6 from "../assets/images/project-img6.jpg";
 import projImg7 from "../assets/images/project-img7.jpg";
 import projImg8 from "../assets/images/project-img8.jpg";
 import projImg9 from "../assets/images/project-img9.jpg";
+import projImg10 from "../assets/images/project-img10.jpg";
+import projImg11 from "../assets/images/project-img11.jpg";
 import projVid1 from "../assets/videos/hers-wish.mp4";
 import projVid2 from "../assets/videos/weather-app.mp4";
 import projVid3 from "../assets/videos/timer.mp4";
@@ -16,18 +18,28 @@ import projVid6 from "../assets/videos/amplify.mp4";
 import projVid7 from "../assets/videos/celebrations.mp4";
 import projVid8 from "../assets/videos/decode.mp4";
 import projVid9 from "../assets/videos/play-along-pride.mp4";
+import projVid10 from "../assets/videos/cryptotracker.mp4";
+import projVid11 from "../assets/videos/talenttrail.mp4";
 
 export const frontendProjects = [
     {
         projectId: "frontend-1",
-        route: "https://her-s-wish.onrender.com",
+        route: "https://cryptotracker-fkgt.onrender.com",
+        imgUrl: projImg10,
+        title: "CryptoTracker",
+        description: "Developed a web app to track cypto currency",
+        video: projVid10,
+    },
+    {
+        projectId: "frontend-2",
+        route: "https://her-s-wish.onrender.com/",
         imgUrl: projImg1,
         title: "Her's Wish",
         description: "Developed frontend for an e-commerce women wear website",
         video: projVid1,
     },
     {
-        projectId: "frontend-2",
+        projectId: "frontend-3",
         route: "https://check-weather-e39q.onrender.com/",
         imgUrl: projImg2,
         title: "How's Weather",
@@ -35,7 +47,7 @@ export const frontendProjects = [
         video: projVid2
     },
     {
-        projectId: "frontend-3",
+        projectId: "frontend-4",
         route: "https://akshatbari02.github.io/Countdown-Timer/",
         imgUrl: projImg3,
         title: "Time's Up",
@@ -43,7 +55,7 @@ export const frontendProjects = [
         video: projVid3,
     },
     {
-        projectId: "frontend-4",
+        projectId: "frontend-5",
         route: "https://akshatbari02.github.io/Myntra-Product-Card/",
         imgUrl: projImg4,
         title: "Product Card",
@@ -51,7 +63,7 @@ export const frontendProjects = [
         video: projVid4,
     },
     {
-        projectId: "frotend-5",
+        projectId: "frotend-6",
         route: "https://akshatbari02.github.io/online-meal/",
         imgUrl: projImg5,
         title: "Responsive Online Meal Webpage",
@@ -59,7 +71,7 @@ export const frontendProjects = [
         video: projVid5,
     },
     {
-        projectId: "frontend-6",
+        projectId: "frontend-7",
         route: "https://akshatbari02.github.io/Amplify/",
         imgUrl: projImg6,
         title: "Amplify:It's Your Music ",
@@ -72,6 +84,14 @@ export const frontendProjects = [
 export const fullstackProjects = [
     {
         projectId: "fullstack-1",
+        route: "https://talent-trail-frontend.onrender.com/",
+        imgUrl: projImg11,
+        title: "Talent Trail",
+        description: "Developed a job portal in MERN",
+        video: projVid11,
+    },
+    {
+        projectId: "fullstack-2",
         route: "https://event-management-website.onrender.com/",
         imgUrl: projImg7,
         title: "Celebrations",
@@ -102,6 +122,14 @@ export const pythonProjects = [
 export const allProjects=[
     {
         projectId: "frontend-1",
+        route: "https://cryptotracker-fkgt.onrender.com/",
+        imgUrl: projImg10,
+        title: "CryptoTracker",
+        description: "Developed a web app to track cypto currency",
+        video: projVid10,
+    },
+    {
+        projectId: "frontend-2",
         route: "https://her-s-wish.onrender.com",
         imgUrl: projImg1,
         title: "Her's Wish",
@@ -150,6 +178,14 @@ export const allProjects=[
     },
     {
         projectId: "fullstack-1",
+        route: "https://talent-trail-frontend.onrender.com/",
+        imgUrl: projImg11,
+        title: "Talent Trail",
+        description: "Developed a job portal in MERN",
+        video: projVid11,
+    },
+    {
+        projectId: "fullstack-2",
         route: "https://event-management-website.onrender.com/",
         imgUrl: projImg7,
         title: "Celebrations",

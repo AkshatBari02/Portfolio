@@ -40,8 +40,20 @@ return(
                                 <h5>HTML, CSS & JS</h5>
                             </div>
                             <div className='item'>
+                                <img src={meter3} alt="Img"/>
+                                <h5>React.js</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={meter2} alt="Img"/>
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={meter2} alt="Img"/>
+                                <h5>Node.js</h5>
+                            </div>
+                            <div className='item'>
                                 <img src={meter4} alt="Img"/>
-                                <h5>ReactJs</h5>
+                                <h5>Express.js</h5>
                             </div>
                             <div className='item'>
                                 <img src={meter2} alt="Img"/>
